@@ -17,7 +17,8 @@ La aplicación consta de cuatro secciones:
 ```Los usuarios podrán exponer sus propias experiencias sobre los juegos de mesa.```
 ## Previsualización:
 ***
-[Juegos de mesa](./img/juego.jpg)
+[Previsualización aplicación](./img/Previsualización.PNG)
+[Juego de mesa](./img/juego.jpg)
 ## Herramientas:
 ***
 1. HMTL5.
