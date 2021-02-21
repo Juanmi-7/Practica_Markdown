@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Inicio</title>
+    <link rel="STYLESHEET" type="text/css" href="./css_inicio/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabecera">
+            <img src="./img/Logotipo_nuevo1.png">
+            <!--<span>Valoramosjuegos.com</span>-->
+            <nav>
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="Valorar.html">Valorar</a></li>
+                    <li><a href="Foro.html">Foro</a></li>
+                    <li><a href="Registro.html">Registro</a></li>
+                </ul>
+                <button class="b_oscuro" id="b_oscuro">Modo oscuro</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="principal">
+            <h1>Bienvenidos a ValoramosJuegos.com</h1>
+            <div id="navegacion">
+                <div class="boton">
+                    <a href="Inicio.html">Inicio</a>
+                </div>
+                <div class="boton">
+                    <a href="Valorar.html">Valorar</a>
+                </div>
+                <div class="boton">
+                    <a href="Foro.html">Foro</a>
+                </div>
+                <div class="boton">
+                    <a href="Registro.html">Registro</a>
+                </div>
+            </div>
+            <section>
+                <div id="doble_imagen_1">
+                    <img src="./img/primer juego mesa.jpg" alt="Juego de mesa en la antigüedad" title="Juego de mesa en la antigüedad">
+                    <img src="./img/primeros juegos mesa.jpg" alt="Primeros juegos de mesa" title="Primeros juegos de mesa">
+                </div>
+                <div id="texto">
+                    <h2>Historia de los juegos de mesa: </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tortor turpis, vulputate augue hendrerit mus ut odio nam fames, duis porta rhoncus suspendisse iaculis feugiat vehicula elementum. In inceptos porttitor aliquet velit netus parturient
+                        class sem, dui aenean mauris tincidunt laoreet commodo donec est ridiculus, venenatis mus nec fames penatibus eu sapien. Primis ad eu id diam viverra odio, eget eleifend urna neque tempor, facilisis nibh netus dignissim fermentum.
+                    </p>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/WA7wGFrkEd0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Nostra mi consequat proin quis commodo gravida pharetra fermentum auctor dui, cubilia interdum malesuada etiam praesent et sociis mus a magna, purus risus duis ut imperdiet venenatis pretium mauris in. Sed praesent rutrum auctor orci
+                        ultrices vehicula cubilia senectus montes sociis, commodo primis venenatis a ac nostra rhoncus diam velit viverra, odio feugiat quam class dictum eleifend natoque suspendisse habitasse. Aliquet sociis vitae ultricies aptent rutrum
+                        taciti nunc, curabitur nam sociosqu molestie ornare lectus, vel cum a et bibendum suspendisse.
+                    </p>
+                </div>
+                <div id="doble_imagen_2">
+                    <img src="./img/juegos mesa actuales.jpg" alt="Juego de mesa actual" title="Juego de mesa actual">
+                    <img src="./img/juego mesa actual.jpg" alt="Juegos de mesa modernos" title="Juegos de mesa modernos">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div id="footer">
+            <nav id="pie">
+                <ul>
+                    <li><a href="#">Aviso legal</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <nav id="pie">
+                <ul>
+                    <li>
+                        <a href="#"><!--<img src="./img/Icono facebook.png"></img>-->
+                            <i class="fab fa-facebook" style="font-size: 50; color: rgb(66,103,178);"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><!--<img src="./img/Icono twitter.png"></img>-->
+                            <i class="fab fa-twitter" style="font-size: 50; color: rgb(29,161,242);"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><!--<img src="./img/Icono Instagram.png"></img>-->
+                            <i class="fab fa-instagram" style="font-size: 50; color: rgb(225,48,108);"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><!--<img src="./img/Icono pinterest.png"></img>-->
+                            <i class="fab fa-pinterest" style="font-size: 50; color: rgb(189,8,28);"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script>
+        const boton = document.querySelector('.b_oscuro');
+        const body = document.querySelector('body');
+        const texto = document.querySelector('#texto');
+
+        boton.addEventListener('click', e => {
+            body.classList.toggle('oscuro');
+            texto.classList.toggle('oscuro');
+        })
+    </script>
+</body>
+
+</html>
