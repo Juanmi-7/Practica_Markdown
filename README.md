@@ -18,6 +18,7 @@ La aplicación consta de cuatro secciones:
 ## Previsualización:
 ***
 [Previsualización aplicación](./img/Previsualización.PNG)
+
 [Juego de mesa](./img/juego.jpg)
 ## Herramientas:
 ***
